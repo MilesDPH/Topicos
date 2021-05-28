@@ -48,13 +48,10 @@ public class Student {
         return last_name;
     }
 
-    public void setLast_name(String last_name) {
+    public void setLastName(String last_name) {
         this.last_name = last_name;
     }
 
-    public String getEmail() {
-        return email;
-    }
 
     public Date getCreatedAt() {
         return created_at;
@@ -62,5 +59,13 @@ public class Student {
 
     public void setCreatedAt(Date created_at) {
         this.created_at = created_at;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
